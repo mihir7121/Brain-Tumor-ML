@@ -1,0 +1,21 @@
+{% extends './base.html' %}
+{% load static %}
+{% block css %}
+  <!-- <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}"> -->
+{% endblock %}
+{% block body %}
+    <form method = "POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Upload</button>
+    </form>
+    {% if img_obj %}
+        <h3>Succesfully uploaded : {{title}}</h3>
+        <img src="{{ image }}" alt="connect" style="max-height:300px">
+        {% if BT == 1 %}
+        <div class="btn error">Likely to have brain tumor</div>
+        {% else %}
+        <div class="btn success">UN-likely to have brain tumor</div>
+        {% endif %}
+    {% endif %}
+{% endblock %}

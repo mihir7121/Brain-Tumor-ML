@@ -1,0 +1,9 @@
+{% extends './base.html' %}
+{% load static %}
+{% block css %}
+  <!-- <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}"> -->
+{% endblock %}
+{% block body %}
+    <h1>hello world!</h1>
+    <a href="{% url 'upload' %}">Get Started</a>
+{% endblock %}
