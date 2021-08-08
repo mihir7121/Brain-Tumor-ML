@@ -3,10 +3,7 @@
 # What's does this app do?
 BT Detector is a web application that simplifies the process of Brain Tumor Detection by automating the process of clinical MRI diagnoses. The patient's brain MRI image is uploaded on our portal in any image format. Once uploaded, the image runs through our model. The model used in our project is customized VGG16. Some key features of the VGG 16 or the OxfordNet model are that it has only convolution and pooling layers in it, it always uses a 3 x 3 Kernel for convolution, it has a total of about 138 million parameters, it is trained on ImageNet weights and it has an accuracy of almost 90%. The model is built so as to accurately predict whether the patient is likely to have Brain Tumor or not.
 
-
-EmoFy is a web app that makes use of deep learning to provide users with the best music based on their mood without any hassle.</br>
-
-We made use of different web technologies to build the application along with a custom deep learning model that is running in the background. The model helps in detecting human emotion in real time and using the output that we get i.e. the emotion/mood, we recommend the user songs that they can play using Spotify without even opening the application.
+We made use of different web technologies to build the application along with a custom deep learning model that is running in the background. The model helps in detecting if the person has brain tumor or not. 
 
 # Technology Used
 ![image](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
