@@ -28,9 +28,6 @@ We made use of different web technologies to build the application along with a 
 <img src="https://github.com/mihir7121/Brain-Tumor-ML/blob/main/Screenshots/UploadingDetails.PNG" alt="drawing" width="500"/>
 </p>
 <p align="center">
-<img src="https://github.com/AM1CODES/EmoFy-GardenHacks/blob/main/Readme-Assets/Screen_Capture_2.png" alt="drawing" width="500"/>
-</p>
-<p align="center">
 <img src="https://github.com/mihir7121/Brain-Tumor-ML/blob/main/Screenshots/1result.PNG" alt="drawing" width="500"/>
 </p>
 <p align="center">
