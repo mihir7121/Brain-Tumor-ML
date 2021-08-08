@@ -1,0 +1,33 @@
+.card {
+    text-align: center;
+    width: 50%;
+    margin-left: 340px;
+    border-radius: 20px;
+    background-color: black;
+}
+.card h3 {
+    margin-top: 5px;
+}
+
+.card-img-top {
+    margin-top: 10px;
+    margin-left: 25%;
+    max-height:300px; 
+    max-width: 18rem;
+}
+
+.btn-info{
+    border-radius: 20px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 300px;
+}
+
+.file-upload-btn{
+    background-color: darkcyan;
+    border-radius: 20px;
+}
+
+.card-text{
+    color: whitesmoke;
+}

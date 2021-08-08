@@ -1,0 +1,33 @@
+{% extends './base.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/upload.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/result.css' %}">
+{% endblock %}
+{% block body %}
+
+{% if img_obj %}
+<div class="card" style="margin-top: 100px;">
+    <button class="file-upload-btn" type="button" onClick="window.location.reload();">Patient name: {{title}}</button>
+    <img class="card-img-top" src="{{ image }}" alt="Card image cap">
+    <div class="card-body">
+        <p class="card-text">{{title}}'s Brain MRI Image runs through our model to accurately predict whether {{title}}
+            has
+            brain
+            tumor or not.</p>
+        {% if BT == 1 %}
+        <button class=" btn btn-danger"><i class="fas fa-exclamation-triangle"></i> Patient is <strong>likely</strong>
+            to
+            have brain tumor</button>
+        {% else %}
+        <button class="btn btn-success"><i class="fas fa-user-shield"></i> Patient is <strong>UN-likely</strong> to have
+            brain tumor</button>
+        {% endif %}
+    </div>
+</div>
+
+{% endif %}
+
+<button class="btn btn-info"><a href="{% url 'upload' %}" style="color: whitesmoke;"> Go back </a></button>
+{% endblock %}

@@ -1,34 +1,21 @@
 {% extends './base.html' %}
 {% load static %}
 {% block css %}
-<link rel="stylesheet" type="text/css" href="{% static 'css/template.css' %}">
 <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
 {% endblock %}
 {% block body %}
-<div class="masthead">
-    <div class="masthead-content">
-        <div class="container-fluid px-4 px-lg-0">
-            <!-- <div class="row"> -->
-            <!-- <div class="col-lg-7"> -->
-            <h1 style="color:darkcyan" class="fst-italic lh-1 mb-4">Brain Tumor Detection App </h1>
-            <p class="mb-5"><a style="color:darkcyan" href="{% url 'upload' %}">Get Started</a></p>
-            <!-- </div> -->
-            <!-- <div class="col-lg-5"><img src="{% static 'img/brain.png' %}" alt=""></div> -->
+<section id="hero">
+    <div class="section1">
+        <h2 style="font-family: Poppins;"><i> Brain Tumor Detection</i><br><br><br>
+            <span class="tagline"><a class="getstarted" href="{% url 'upload' %}">Get Started</a></span>
+            <br><br>
+        </h2>
+        <div class="video-container">
+            <div class="color-overlay"></div>
+            <video autoplay muted loop>
+                <source src="{% static 'img/brain3.mp4' %}" type="video/mp4" />
+            </video>
         </div>
-        <!-- <video autoplay="autoplay" muted="muted" loop="loop">
-                <source src="{% static 'img/brain.mp4' %}" type="video/mp4" />
-            </video> -->
     </div>
-
-</div>
-</div>
-
-
-</div>
-<!-- Social Icons-->
-<div class="social-icons">
-    <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
-        <a class="btn btn-dark m-3" href="https://github.com/mihir7121/Brain-Tumor-ML"><i class="fab fa-github"></i></a>
-    </div>
-</div>
+</section>
 {% endblock %}
