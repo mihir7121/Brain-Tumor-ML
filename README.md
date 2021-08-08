@@ -19,25 +19,25 @@ We made use of different web technologies to build the application along with a 
 # Project Gallery
 
 <p align="center">
-<img src="https://github.com/AM1CODES/EmoFy-GardenHacks/blob/main/Readme-Assets/Landing.png" alt="drawing" width="500"/>
+<img src="https://github.com/mihir7121/Brain-Tumor-ML/blob/main/Screenshots/Landing%20page.PNG" alt="drawing" width="500"/>
 </p>
 <p align="center">
-<img src="https://github.com/AM1CODES/EmoFy-GardenHacks/blob/main/Readme-Assets/About.png" alt="drawing" width="500"/>
+<img src="https://github.com/mihir7121/Brain-Tumor-ML/blob/main/Screenshots/Uploading.PNG" alt="drawing" width="500"/>
 </p>
 <p align="center">
-<img src="https://github.com/AM1CODES/EmoFy-GardenHacks/blob/main/Readme-Assets/Screen_Capture_1.png" alt="drawing" width="500"/>
+<img src="https://github.com/mihir7121/Brain-Tumor-ML/blob/main/Screenshots/UploadingDetails.PNG" alt="drawing" width="500"/>
 </p>
 <p align="center">
 <img src="https://github.com/AM1CODES/EmoFy-GardenHacks/blob/main/Readme-Assets/Screen_Capture_2.png" alt="drawing" width="500"/>
 </p>
 <p align="center">
-<img src="https://github.com/AM1CODES/EmoFy-GardenHacks/blob/main/Readme-Assets/Screen_Capture_Mood_1.png" alt="drawing" width="500"/>
+<img src="https://github.com/mihir7121/Brain-Tumor-ML/blob/main/Screenshots/1result.PNG" alt="drawing" width="500"/>
 </p>
 <p align="center">
-<img src="https://github.com/AM1CODES/EmoFy-GardenHacks/blob/main/Readme-Assets/Screen_Capture_Mood_2.png" alt="drawing" width="500"/>
+<img src="https://github.com/mihir7121/Brain-Tumor-ML/blob/main/Screenshots/Result.PNG" alt="drawing" width="500"/>
 </p>
 <p align="center">
-<img src="https://github.com/AM1CODES/EmoFy-GardenHacks/blob/main/Readme-Assets/Screen_Capture_Mood_3.png" alt="drawing" width="500"/>
+<img src="https://github.com/mihir7121/Brain-Tumor-ML/blob/main/Screenshots/about.PNG" alt="drawing" width="500"/>
 </p>
 
 # Creators
