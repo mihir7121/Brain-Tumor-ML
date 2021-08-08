@@ -1,9 +1,34 @@
 {% extends './base.html' %}
 {% load static %}
 {% block css %}
-  <!-- <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}"> -->
+<link rel="stylesheet" type="text/css" href="{% static 'css/template.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
 {% endblock %}
 {% block body %}
-    <h1>hello world!</h1>
-    <a href="{% url 'upload' %}">Get Started</a>
+<div class="masthead">
+    <div class="masthead-content">
+        <div class="container-fluid px-4 px-lg-0">
+            <!-- <div class="row"> -->
+            <!-- <div class="col-lg-7"> -->
+            <h1 style="color:darkcyan" class="fst-italic lh-1 mb-4">Brain Tumor Detection App </h1>
+            <p class="mb-5"><a style="color:darkcyan" href="{% url 'upload' %}">Get Started</a></p>
+            <!-- </div> -->
+            <!-- <div class="col-lg-5"><img src="{% static 'img/brain.png' %}" alt=""></div> -->
+        </div>
+        <!-- <video autoplay="autoplay" muted="muted" loop="loop">
+                <source src="{% static 'img/brain.mp4' %}" type="video/mp4" />
+            </video> -->
+    </div>
+
+</div>
+</div>
+
+
+</div>
+<!-- Social Icons-->
+<div class="social-icons">
+    <div class="d-flex flex-row flex-lg-column justify-content-center align-items-center h-100 mt-3 mt-lg-0">
+        <a class="btn btn-dark m-3" href="https://github.com/mihir7121/Brain-Tumor-ML"><i class="fab fa-github"></i></a>
+    </div>
+</div>
 {% endblock %}

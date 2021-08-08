@@ -1,0 +1,32 @@
+.main{
+    background-color: #383838;
+    height: 75% !important;
+    border-radius:29px;
+    font-family: Poppins;
+}
+.about{
+    height: 100px;
+    color: whitesmoke;
+}
+.about-links{
+    border-radius: 10px;
+}
+.creator_card{
+   background: linear-gradient(180deg, rgba(255, 255, 255, 0.53) 0%, rgba(255, 255, 255, 0.47) 100%);
+   border-radius:29px;
+   width:20%;
+ min-width:200px;
+ height:200px;
+}
+
+.btn-colorg{
+    background-color: darkcyan;
+    color: whitesmoke;
+}
+
+   .rounded{
+    border-top-left-radius:25px !important;
+    border-top-right-radius:25px !important;
+    border-bottom-right-radius:25px !important;
+    border-bottom-left-radius:25px !important;
+   }

@@ -19,10 +19,12 @@ def upload(request):
         if form.is_valid():
             form.save()
             # Get the current instance object to display in the template
+            # Get the current instance object to display in the template
             img_obj = form.instance
             image = img_obj.image.url
             img_title = img_obj.title
-            a = predict_class(os.path.join("D:/Hackathons/XHacks/brainTumor/DetectionApp/"+img_title))
+            print(os.path.join("E:/Django/Brain-Tumor-ML"+image))
+            a = predict_class(os.path.join("E:/Django/Brain-Tumor-ML"+image))
             return render(request, 'DetectionApp/upload.html', {'form': form, 'img_obj':img_obj, 'image': image, 'title':img_title, 'BT':a})
         else:
             form = ImageForm()
@@ -33,7 +35,7 @@ def upload(request):
 def aboutus(request):
     return render(request, "DetectionApp/about.html")
 
-model = keras.models.load_model(os.path.join("D:/Hackathons/XHacks/brainTumor/DetectionApp/"+"model_optimal.h5")) #loading our model that we will use to make predictions of emotions
+model = keras.models.load_model(os.path.join("E:/Django/Brain-Tumor-ML/DetectionApp/"+"model_optimal.h5")) #loading our model that we will use to make predictions of emotions
 def predict_class(img_path):
     img = load_img(img_path)
     image = img
