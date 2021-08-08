@@ -25,8 +25,8 @@ def upload(request):
             age = img_obj.age
             country = img_obj.country
             email = img_obj.age
-            print(os.path.join("E:/Django/Brain-Tumor-ML"+image))
-            a = predict_class(os.path.join("E:/Django/Brain-Tumor-ML"+image))
+            print(os.path.join("D:/Hackathons/XHacks/Brain-Tumor-ML"+image))
+            a = predict_class(os.path.join("D:/Hackathons/XHacks/Brain-Tumor-ML"+image))
             return render(request, 'DetectionApp/result.html', {'form': form, 'img_obj':img_obj, 'image': image, 'title':img_title, 'age': age, 'country': country, 'email':email,'BT':a})
         else:
             form = ImageForm()
@@ -40,7 +40,7 @@ def aboutus(request):
 def result(request):
     return render(request, "DetectionApp/result.html")
 
-model = keras.models.load_model(os.path.join("E:/Django/Brain-Tumor-ML/DetectionApp/"+"model_optimal.h5")) #loading our model that we will use to make predictions of emotions
+model = keras.models.load_model(os.path.join("D:/Hackathons/XHacks/Brain-Tumor-ML/DetectionApp/"+"model.h5")) #loading our model that we will use to make predictions of emotions
 def predict_class(img_path):
     img = load_img(img_path)
     image = img
