@@ -14,12 +14,7 @@ We made use of different web technologies to build the application along with a 
 ![image](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=Keras&logoColor=white)
 ![image](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![image](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-# Design
-The website was designed on Figma.The prototype is available on figma and can be accessed from [here](https://www.figma.com/file/OF9DcqPII7f5QpUR7hIN7B/EmoFy?node-id=0%3A1) .
-<p align="center">
-<img src="https://github.com/AM1CODES/EmoFy-GardenHacks/blob/main/Readme-Assets/Figma-Design.png" alt="drawing" width="500"/>
-</p>
-</br>
+
 
 # Project Gallery
 
